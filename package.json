@@ -10,9 +10,13 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Pedro Cerdeirinha",
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.51.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedro-cerdera/react-native-mixpanel-notification"
   }
 }

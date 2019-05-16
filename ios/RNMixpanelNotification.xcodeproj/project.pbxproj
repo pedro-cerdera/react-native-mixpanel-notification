@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNMixpanelNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMixpanelNotification.m */; };
+		FE91BA21228D98C800D71FD4 /* ModuleWithEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91BA1F228D98C800D71FD4 /* ModuleWithEmitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		134814201AA4EA6300B7C361 /* libRNMixpanelNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMixpanelNotification.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNMixpanelNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMixpanelNotification.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMixpanelNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMixpanelNotification.m; sourceTree = "<group>"; };
+		FE91BA1F228D98C800D71FD4 /* ModuleWithEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleWithEmitter.m; sourceTree = "<group>"; };
+		FE91BA20228D98C800D71FD4 /* ModuleWithEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleWithEmitter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				FE91BA20228D98C800D71FD4 /* ModuleWithEmitter.h */,
+				FE91BA1F228D98C800D71FD4 /* ModuleWithEmitter.m */,
 				B3E7B5881CC2AC0600A0062D /* RNMixpanelNotification.h */,
 				B3E7B5891CC2AC0600A0062D /* RNMixpanelNotification.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -112,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE91BA21228D98C800D71FD4 /* ModuleWithEmitter.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNMixpanelNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +210,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
